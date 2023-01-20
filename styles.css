@@ -89,6 +89,7 @@ button[id="sign-in"]:hover {
 #search {
   display: table-cell;
   vertical-align: middle;
+  position: relative;
 }
 label {
   font-size: 8rem;
@@ -104,4 +105,25 @@ label {
 ::placeholder {
   font-size: 2rem;
 }
-/* put glow and an pointer icon point to the right */
+.bx-right-arrow-alt {
+  position: relative;
+  top: 12.5px;
+  right: 50px;
+  color: black;
+  font-size: 4rem;
+}
+#options {
+  margin-top: 150px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: repeat(3, 1fr);
+  gap: 100px;
+}
+.category-list-item {
+  min-width: 50%;
+}
+.category-list-item:nth-child(1),
+.category-list-item:nth-child(3),
+.category-list-item:nth-child(5) {
+  margin-left: 200px;
+}
