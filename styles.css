@@ -1,0 +1,107 @@
+:root {
+  --darkPurple: #4c5fd5;
+  --lightPurple: #dadbf1;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+  font-family: "Roboto", sans-serif;
+}
+
+#heading {
+  background-color: black;
+  min-height: 90px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#logo-wrapper {
+  font-size: 2.4rem;
+  margin-left: 10rem;
+  color: white;
+  margin-bottom: 20px;
+}
+#icon {
+  display: inline-block;
+}
+i {
+  margin: 10px 5px 0 0;
+  font-size: 40px;
+  position: relative;
+  top: 10px;
+  color: white;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+#abstract-link {
+  font-weight: 800;
+}
+#abstract-link:hover {
+  color: rgb(230, 230, 230);
+}
+#divider {
+  font-size: 2.9rem;
+}
+#help-center:hover {
+  text-decoration: underline;
+}
+nav {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 10rem;
+}
+.input {
+  border-radius: 10px;
+  margin-right: 10px;
+  font-size: 2.4rem;
+  cursor: pointer;
+}
+#request {
+  max-width: 24rem;
+  min-height: 4rem;
+  border: 1px solid white;
+  background-color: rgb(42, 42, 42);
+  color: white;
+}
+button {
+  padding: 10px 25px;
+  background-color: #4c5fd5;
+  color: white;
+  transition: all 0.15s linear;
+}
+button[id="sign-in"]:hover {
+  background-color: white;
+  color: black;
+}
+#help {
+  background-color: var(--lightPurple);
+  min-height: 55vh;
+  display: table;
+  text-align: center;
+  width: 100%;
+}
+#search {
+  display: table-cell;
+  vertical-align: middle;
+}
+label {
+  font-size: 8rem;
+  display: block;
+  margin-bottom: 25px;
+}
+#how-can-we-help {
+  border-radius: 5px;
+  width: 48%;
+  font-size: 2rem;
+  padding: 1.8rem 1rem;
+}
+::placeholder {
+  font-size: 2rem;
+}
+/* put glow and an pointer icon point to the right */
