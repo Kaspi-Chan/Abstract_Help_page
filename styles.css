@@ -105,6 +105,12 @@ label {
 ::placeholder {
   font-size: 2rem;
 }
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-results-button,
+input[type="search"]::-webkit-search-results-decoration {
+  display: none;
+}
 .bx-right-arrow-alt {
   position: relative;
   top: 12.5px;
@@ -114,16 +120,18 @@ label {
 }
 #options {
   margin-top: 150px;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: repeat(3, 1fr);
-  gap: 100px;
+  display: flex;
+  flex-wrap: wrap;
 }
 .category-list-item {
+  max-width: 50%;
   min-width: 50%;
+  min-height: 115px;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
-.category-list-item:nth-child(1),
-.category-list-item:nth-child(3),
-.category-list-item:nth-child(5) {
-  margin-left: 200px;
+.category-list-item {
+  font-size: 2rem;
 }
