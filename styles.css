@@ -237,6 +237,17 @@ footer li:hover {
     max-width: 85px;
   }
 }
+@media (max-width: 900px) {
+  nav {
+    margin: 0;
+  }
+  #logo-wrapper {
+    margin-left: 0;
+  }
+  #heading {
+    padding: 1.5rem;
+  }
+}
 @media (max-width: 790px) {
   footer {
     flex-direction: column;
@@ -259,6 +270,16 @@ footer li:hover {
   #how-can-we-help {
     min-width: 100%;
   }
+  #help {
+    padding: 0 2rem;
+  }
+  .bx-right-arrow-alt {
+    top: -60px;
+    left: 45%;
+  }
+  label {
+    font-size: 6.4rem;
+  }
   #options {
     flex-direction: column;
     align-items: center;
@@ -274,8 +295,34 @@ footer li:hover {
     margin-right: 0;
   }
   .category-list-item {
-    max-width: 80%;
+    min-width: 80%;
     margin: 0;
+  }
+  .list-item h2 {
+    margin: 4.8rem 0 1.6rem;
+    padding: 0;
+  }
+  .list-img {
+    margin-top: 4.8rem;
+  }
+  /* nav */
+  #request {
+    max-width: 13rem;
+  }
+  .input {
+    font-size: 1.4rem;
+  }
+  button {
+    min-height: 5.4rem;
+  }
+  #nav {
+    display: flex;
+    justify-content: center;
+  }
+}
+@media (max-width: 600px) {
+  label {
+    font-size: 4rem;
   }
 }
 
@@ -288,5 +335,8 @@ footer li:hover {
   }
   #options {
     margin-top: 50px;
+  }
+  .input {
+    margin-right: 0.5rem;
   }
 }
