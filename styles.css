@@ -176,21 +176,50 @@ a:hover {
 }
 .container {
   flex: 1;
+  padding: 0 30px 10px;
+  background-color: black;
 }
 footer {
   background-color: black;
   color: white;
   display: flex;
   flex-direction: row;
-  padding: 50px;
+  justify-content: space-around;
+  align-items: center;
   line-height: 1.5;
+  margin: 1rem 3rem;
+  font-family: "Raleway", sans-serif;
 }
 .ft-main {
   display: flex;
   flex-wrap: wrap;
-  padding: 1.25rem 1.875rem;
+  justify-content: space-between;
+  padding: 2rem 3rem 15rem;
+  min-width: 75%;
+  font-size: 1.6rem;
 }
 .ft-main-item {
-  padding: 1.25rem;
   min-width: 20rem;
+}
+.ft-main-item > h2 {
+  margin: 2rem 0 1rem;
+}
+.ft-main-item > h3 {
+  margin-top: 3rem;
+  font-size: 1.7rem;
+}
+.ft-credentials {
+  margin-top: 16rem;
+  font-size: 1.8rem;
+  padding-left: 12rem;
+}
+.ft-credentials i {
+  margin-bottom: 3rem;
+}
+.ft-credentials li {
+  font-weight: 600;
+}
+footer li:hover {
+  text-decoration: underline;
+  cursor: pointer;
 }
