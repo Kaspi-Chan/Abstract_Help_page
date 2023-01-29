@@ -6,5 +6,6 @@ I tried to make it somewhat mobile compatible, but the desktop version still loo
 Desktop (Original version)
 ![Desktop](./screenshots/Desktop.png?raw=true)
 
-Mobile
+Mobile < 400px
+
 ![Mobile](./screenshots/Mobile.png?raw=true)
